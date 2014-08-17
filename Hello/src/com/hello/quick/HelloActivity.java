@@ -18,7 +18,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
+/* edit in github */
 public class HelloActivity extends Activity implements OnClickListener {
 	private Button btnBMI, btnAbout, btnOpenSearch, btnOpenContentProviderActivity;
 	private EditText edtHeight;
@@ -40,7 +40,7 @@ public class HelloActivity extends Activity implements OnClickListener {
         btnAbout.setOnClickListener(new OnClickListener(){   
             public void onClick(View v) {     
                 // TODO Auto-generated method stub     
-            	Toast.makeText(HelloActivity.this, "这是一个提示", Toast.LENGTH_SHORT).show(); 
+            	Toast.makeText(HelloActivity.this, "脮芒脢脟脪禄赂枚脤谩脢戮", Toast.LENGTH_SHORT).show(); 
     			   
             }     
         });    

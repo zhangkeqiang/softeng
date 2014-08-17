@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
 
 /**
  *  BMI is a standard indicator
- *
+ *  change it 
  */
 public class BMI {
 	private double height;

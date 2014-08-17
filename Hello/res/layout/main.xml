@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+    
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/hello"
+    />
+    	
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/height"
+    />
+    <EditText android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:id="@+id/height"
+    android:text="172" android:numeric="integer">
+    </EditText>
+	
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/weight"
+    />
+    <EditText android:id="@+id/weight" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent"     	
+    	android:numeric="integer" 
+    	android:text="80">
+    </EditText>
+    <Button android:id="@+id/submit"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent"  
+    	android:text="@string/bmi_btn">
+    </Button>
+	
+	<TextView  
+		android:id="@+id/result"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text=""
+    />
+    	
+	<TextView  
+		android:id="@+id/suggest"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text=""
+    />
+	<Button android:id="@+id/about" 
+		android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"  
+    	android:text="关于" >
+    </Button>
+	<Button android:id="@+id/opensearch"
+		android:text="Open Search" 
+		android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"  >
+    </Button>
+    	<Button android:id="@+id/btnOpenContentProviderActivity"
+		android:text="Open ContentProvider Activity" 
+		android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"  >
+    </Button>
+</LinearLayout>

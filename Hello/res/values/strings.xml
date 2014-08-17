@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">身高体重指数计算</string>
+    <string name="app_name">BMI</string>
+    <string name="height">身高（cm）</string>
+    <string name="weight">体重（kg）</string>
+    <string name="bmi_btn">计算BMI值</string>
+    <string name="advice_heavy">偏胖</string>
+    <string name="advice_light">偏轻</string>
+    <string name="advice_average">正好</string>
+    
+</resources>

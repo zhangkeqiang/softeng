@@ -4,6 +4,10 @@ import java.text.DecimalFormat;
 //import android.app.Activity;
 //import android.os.Bundle;
 
+/**
+ *  BMI is a standard indicator
+ *
+ */
 public class BMI {
 	private double height;
 	private double weight;
